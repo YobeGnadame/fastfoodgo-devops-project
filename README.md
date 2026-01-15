@@ -93,6 +93,11 @@ Pour assurer la stabilité de la branche principale, des règles de protection o
 
 ### Preuve de la Protection de Branche
 
-*(Cette section sera complétée avec une capture d'écran une fois la configuration effectuée sur GitHub)*
+La branche `main` est protégée avec les paramètres suivants :
 
-<img width="700" alt="Capture d’écran de la configuration de protection de branche sur GitHub" src="URL_DE_VOTRE_CAPTURE_D_ECRAN_ICI">
+![Capture d'écran de la configuration de protection de branche sur GitHub](branch-protection-proof.png)
+
+**Configuration appliquée :**
+- ✅ Require a pull request before merging
+- ✅ Require approvals (1 approbation minimum)
+- ✅ Require status checks to pass before merging
